@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+p{
+    color: rgb(117, 212, 252);
+    font-family: lores-12,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.rectangle {
+    height: 22px;
+    width: 10px;
+    background-color: rgb(117, 212, 252);
+    margin-top: 20px;
+    opacity: 1;
+    animation: fade 1.2s infinite ;
+  }
+  @keyframes fade {
+    0%,50% { opacity: 0 }
+    100% { opacity: 1 }
+  }
+  #centerContent{
+    margin-top: 20vh;
+    width: 550px;
+    margin-left: 35vw;
+    text-shadow: 1px 1px rgba(103, 206, 250, 0.516);
+
+  }
