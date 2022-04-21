@@ -10,6 +10,19 @@ p{
     font-size: 20px;
 }
 
+h5{
+    display: inline;
+}
+
+h6{
+    display: inline;
+}
+
+hr{
+    margin-top: 0px;
+    color: rgba(255,0,11,.3);
+}
+
 .rectangle {
     height: 22px;
     width: 10px;
@@ -25,10 +38,10 @@ p{
 }
 
 #centerContent{
-margin-top: 15vh;
-width: 550px;
-margin-left: 15vw;
-text-shadow: 1px 1px rgba(103, 206, 250, 0.516);
+    margin-top: 15vh;
+    width: 550px;
+    margin-left: 15vw;
+    text-shadow: 1px 1px rgba(103, 206, 250, 0.516);
 }
 
 #subContent{
@@ -40,15 +53,19 @@ button{
     font-family: lores-12,sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
-    padding: 5px;
+    font-size: 23px;
     margin-top: 60px; 
     letter-spacing: 3px;
-    text-shadow: 2px 1.5px rgba(255,0,11,255);
+    text-shadow: -1.5px 0px rgba(255,0,11,.2), -1px -1px 1px rgba(255,0,11,.9);
     color:white;
+    border: none;
     font-family: americane,sans-serif;
     font-weight: 900;
     font-style: normal;
+}
+
+button:hover{
+    opacity: 80%;
 }
 
 #disclaimer{
