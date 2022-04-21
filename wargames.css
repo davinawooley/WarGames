@@ -27,3 +27,37 @@ p{
     text-shadow: 1px 1px rgba(103, 206, 250, 0.516);
 
   }
+
+  #subContent{
+      text-align: center;
+  }
+  button{
+      background-color: black;
+      font-family: lores-12,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+      /* padding-left: 50px; */
+      padding: 5px;
+      margin-top: 30px; 
+      letter-spacing: 3px;
+      text-shadow: 2px 1.5px rgba(255,0,11,255);
+      color:white;
+      font-family: americane,sans-serif;
+      font-weight: 900;
+      font-style: normal;
+  }
+  #disclaimer{
+      color:rgb(57, 57, 57);
+      text-align: center;
+      font-size: 10px;
+      margin-top: 40px;
+      font-family: lores-12,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+  }
+
+  #repo{
+      margin-left: 50px;
+
+  }
