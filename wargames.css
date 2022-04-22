@@ -68,6 +68,14 @@ button:hover{
     opacity: 80%;
 }
 
+#space1{
+    margin-top: 30px;
+}
+
+#space2{
+    margin-top: 50px;
+}
+
 #disclaimer{
     color:white;
     text-align: center;
