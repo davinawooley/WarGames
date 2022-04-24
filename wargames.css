@@ -12,15 +12,17 @@ p{
 
 h5{
     display: inline;
+    color:white;
 }
 
 h6{
     display: inline;
+    color:white;
 }
 
 hr{
     margin-top: 0px;
-    color: rgba(255,0,11,.3);
+    color: rgba(255,0,11,.1);
 }
 
 .rectangle {
@@ -57,7 +59,6 @@ button{
     margin-top: 60px; 
     letter-spacing: 3px;
     text-shadow: -1.5px 0px rgba(255,0,11,.2), -1px -1px 1px rgba(255,0,11,.9);
-    color:white;
     border: none;
     font-family: americane,sans-serif;
     font-weight: 900;
